@@ -1,0 +1,21 @@
+body {
+	background-color: #555;
+
+}
+
+}
+.gifDiv{
+    /* This lines the gifs up horizontally instead of vertically to make viewing easier*/
+    float: left;
+    margin: 5px;
+}
+
+}
+.jumbotron {
+    background-color: #555;
+}
+
+.jumbotron .h1, .jumbotron h1, .jumbotron .p {
+    text-align: center;
+}
+
