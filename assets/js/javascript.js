@@ -1,5 +1,7 @@
+console.log("test")
 // Adding click event listen listener to all buttons
     $("button").on("click", function() {
+       $("#gifs-appear-here").empty();
       // Grabbing and storing the data-gif property value from the button
       var gif = $(this).attr("data-gif");
       // Constructing a queryURL using the gif name
